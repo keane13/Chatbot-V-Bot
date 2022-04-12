@@ -1,0 +1,156 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for visiting, I am V-Net, a Virtual Customer Service.",
+                                "Good to see you again, I am V-Net, a Virtual Customer Service.",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye"
+                        ],
+                        "responses": [
+                                "See you later, thanks for visiting",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you very Much",
+                                "That's helpful"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ]
+                },
+                {
+                        "tag": "chatbot",
+                        "patterns": [
+                                "Who built this chatbot?",
+                                "Tell me about Chatbot",
+                                "What is this chatbot name?"
+                        ],
+                        "responses": [
+                                "Hi, I am Chatbot Virtual Customer Service. Designed by Simon Surya.",
+                                "Thanks for asking. I am designed by Simon Surya",
+                                "I am a chatbot Virtual Customer Service, how can I help You."
+                        ]
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "What is your location?",
+                                "Where are you located?",
+                                "What is your address?"
+                        ],
+                        "responses": [
+                                "We are from World's largest Archipelago Indonesia.",
+                                "You can visit Indonesia to meet us",
+                                "Thans for your Interest. I live in Indonesia."
+                        ]
+                },
+                {
+                        "tag": "connect",
+                        "patterns": [
+
+                                "Where can we connect",
+                                "How can i reach out to you?",
+                                "Is there any way we can connect"
+                        ],
+                        "responses": [
+                                "You can connect us our website www.Fast_Connect.com",
+                                "You can visit www.Fast_Connect.com."
+                        ]
+                },
+                {
+                        "tag": "movies",
+                        "patterns": [
+                                "Which is your favourite movie?",
+                                "Suggest me some movies",
+                                "Recommend movies"
+                        ],
+                        "responses": [
+                                "3 idiots",
+                                "Titanic",
+                                "Jungle Cruise",
+                                "Jumanji",
+                                "Star Wars",
+                                "Avatar",
+                                "Avengers",
+                                "Ludo"
+                        ]
+                },
+                {
+                        "tag": "about",
+                        "patterns": [
+                                "Who are you?",
+                                "Tell me about Yourself",
+                                "What is this?"
+                        ],
+                        "responses": [
+                                "Hi, I am Simon . Nice to meet you. I made this chatbot for fun .",
+                                "Thanks for asking. I am Simon Surya, coder by profession but ML enthusiast by passion."
+                        ]
+                },
+                {
+                        "tag": "help",
+                        "patterns": [
+                                "How can you help me?",
+                                "Tell me about this information",
+                                "Can you Help me?"
+                        ],
+                        "responses": [
+                                "yes, I can. What can i do for you? .",
+                                "Thanks for asking. For more information About our Services please check our website"
+                        ]
+                },
+                {
+                        "tag": "payment",
+                        "patterns": [
+                                "How much is it?",
+                                "what payment do you provide?",
+                                "How much it cost?",
+                                "Can I pay credit, cash or debit?"
+                        ],
+                        "responses": [
+                                "Our Services is around 2 million rupiah.",
+                                "You can pay credit and debit on our link in our web.",
+                                "For Package Ulti is around 350.000, Super 400.000 every month."
+                        ]
+                },
+                {
+                        "tag": "service",
+                        "patterns": [
+                                "What type of service you have?",
+                                "What do you sell here",
+                                "What package do you have?"
+                                
+                        ],
+                        "responses": [
+                                "Our Services is providing Internet Package Connection through Home and Appartemen",
+                                "We Sell Internet Package Connection, Package A for 20 mbs Internet Services, Package Ulti 30 mbps Inter services",
+                                "For more information visit out website."
+                        ]
+                }
+               
+        ]
+}
